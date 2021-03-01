@@ -5,7 +5,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from scipy.misc import imresize
+#from scipy.misc import imresize
+from skimage.transform import imresize
 
 from ..functions import pr_conv2d, peak_stimulation
 
